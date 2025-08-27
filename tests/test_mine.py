@@ -125,8 +125,7 @@ class TestCategoryAndProduct:
     def test_main_block_functionality(self):
         """Тест функционала из основного блока"""
         # Тестируем создание продуктов как в main блоке
-        product1 = Product("Samsung Galaxy S23 Ultra",
-                           "256GB, Серый цвет, 200MP камера", 180000.0, 5)
+        product1 = Product("Samsung Galaxy S23 Ultra", "256GB, Серый цвет, 200MP камера", 180000.0, 5)
         assert product1.name == "Samsung Galaxy S23 Ultra"
         assert product1.price == 180000.0
 
@@ -138,7 +137,7 @@ class TestCategoryAndProduct:
             "Смартфоны",
             "Смартфоны, как средство не только коммуникации, но и получения "
             "дополнительных функций для удобства жизни",
-            [product1, product2, product3]
+            [product1, product2, product3],
         )
 
         assert category.name == "Смартфоны"
