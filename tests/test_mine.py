@@ -731,8 +731,6 @@ def test_str_with_fixture(sample_product):
     expected = "Тестовый товар, 100.0 руб. Остаток: 5 шт."
     assert str(sample_product) == expected
 
-
-
 class TestCategoryStr:
     """Тесты для строкового представления категории"""
 
