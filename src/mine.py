@@ -164,3 +164,5 @@ class Category:
 #     print(f"===Список продуктов (всего {category1.product_count} шт. в категории 1):")
 #     print(category1.products)
 #     print(category1.products)
+#     print(category1.products)
+
